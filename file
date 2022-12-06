@@ -1,0 +1,20 @@
+#!/bin/bash
+#discription: calculate my age
+#auto;oben
+#date
+
+echo "what is our current year"
+
+read current_year
+
+echo
+
+echo "what is my year of birth"
+
+read my_year_of_birth
+
+echo "what is your last name"
+
+read last_name
+
+echo "mr $last_name you are `expr $my_year_of_birth - $current_year` years old" 
