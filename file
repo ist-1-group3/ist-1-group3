@@ -17,4 +17,4 @@ echo "what is your last name"
 
 read last_name
 
-echo "mr $last_name you are `expr $my_year_of_birth - $current_year` years old" 
+echo "mr $last_name you are `expr $current_year - $my_year_of_birth` years old" 
